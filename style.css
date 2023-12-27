@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 main {
@@ -61,4 +61,15 @@ main .second {
 
 span {
   color: red;
+}
+
+@media (max-width: 600px) {
+  body {
+    height: 100vh;
+  }
+  main {
+    border-radius: 0;
+    padding-top: 2rem;
+    width: auto;
+  }
 }
