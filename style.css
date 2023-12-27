@@ -40,6 +40,7 @@ main p {
 }
 
 input {
+  color: white;
   width: 13rem;
   height: 2.5rem;
   margin-right: 10px;
